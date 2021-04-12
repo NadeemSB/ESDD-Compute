@@ -13,6 +13,6 @@ function electroDischarge() {
   let n = (m * v) / a;
   let salinity = (m).toFixed(4)
   let esdd = (n).toFixed(4)
-  document.getElementById('res').innerHTML = 'ESDD: ' + esdd;
-  document.getElementById('sal').innerHTML = 'Salinity: ' + salinity;
+  document.getElementById('res').innerHTML = 'ESDD : ' + esdd;
+  document.getElementById('sal').innerHTML = 'Salinity : ' + salinity;
 }
