@@ -1,4 +1,4 @@
-.heading{
+.heading {
   color: #3B4754;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -6,16 +6,26 @@
   margin: 20px 0 0 40px;
 }
 
-.instruction{
+.instruction {
   color: #3B4754;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
-  font-size : 30px;
-  padding: 10px 0 0 20px;
+  font-size: 30px;
+  padding: 20px 0 0 20px;
+  display: inline-block;
 }
 
-.userinput{
-  width:300px;
+.refresh {
+  margin: -50px 0 0 1130px;
+  border: none;
+  background-color: #C9D3DD;
+  color: #3B4754;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+
+.userinput {
+  width: 300px;
   height: 40px;
   display: block;
   position: relative
@@ -23,11 +33,11 @@
 
 input:focus {
   outline: none !important;
-  border:1.5px solid #007bff;
+  border: 1.5px solid #007bff;
   box-shadow: 0 0 10px #007bff;
 }
 
-label{
+label {
   color: #3B4754;
   font-weight: 400;
 }
@@ -37,25 +47,26 @@ label{
   grid-template-columns: auto auto auto;
   padding-left: 20px;
 }
+
 .grid-item {
   padding-top: 60px;
 }
 
-.stage{
+.stage {
   background-color: #C9D3DD;
   margin: 20px 40px 0 40px;
   border-radius: 15px;
 }
 
-#res,#sal{
+#res, #sal {
   color: #3B4754;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  font-size : 40px;
+  font-size: 40px;
   padding: 5px 0 20px 20px;
 }
 
-.button{
+.button {
   background-color: #29323D;
   border-radius: 3px;
   color: white;
@@ -63,17 +74,24 @@ label{
   width: 140px;
   height: 40px;
   border: none;
+  margin-top: 120px;
   margin-left: 160px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
-.button:hover{
-  background-color: #007bff;
-}
-.button1:hover{
+
+.button:hover {
   background-color: #007bff;
 }
 
-.footer{
+.button1:hover {
+  background-color: #007bff;
+}
+
+.refresh:hover {
+  color: #007bff;
+}
+
+.footer {
   background-color: #29323D;
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -82,11 +100,10 @@ label{
   padding: 10px 0 10px 10px;
   height: 50px;
 }
+
 /*Mobile*/
-
-@media(max-width: 1200px){
-
-  .heading{
+@media(max-width: 1200px) {
+  .heading {
     color: #3B4754;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -94,15 +111,24 @@ label{
     margin: 20px 0 0 40px;
   }
 
-  .instruction{
+  .instruction {
     color: #3B4754;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size : 50px;
+    font-size: 50px;
     padding: 30px 0 0 40px;
   }
 
-  .userinput{
+  .refresh {
+    margin: -50px 0 0 800px;
+    border: none;
+    background-color: #C9D3DD;
+    color: #3B4754;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+  }
+
+  .userinput {
     width: 600px;
     height: 80px;
     font-size: 30px;
@@ -114,11 +140,11 @@ label{
 
   input:focus {
     outline: none !important;
-    border:1.5px solid #007bff;
+    border: 1.5px solid #007bff;
     box-shadow: 0 0 10px #007bff;
   }
 
-  label{
+  label {
     color: #3B4754;
     font-weight: 400;
     font-size: 40px;
@@ -129,26 +155,27 @@ label{
     display: grid;
     grid-template-columns: auto;
   }
+
   .grid-item {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: 30px;
   }
 
-  .stage{
+  .stage {
     background-color: #C9D3DD;
     margin: 40px 30px 0 30px;
     border-radius: 25px;
   }
 
-  #res,#sal{
+  #res, #sal {
     color: #3B4754;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size : 50px;
+    font-size: 50px;
     padding: 5px 0 20px 50px;
   }
 
-  .button{
+  .button {
     background-color: #29323D;
     border-radius: 10px;
     color: white;
@@ -158,10 +185,10 @@ label{
     height: 80px;
     border: none;
     margin-left: 600px;
-    margin-top: -20px;
+    margin-top: 50px;
   }
 
-  .footer{
+  .footer {
     background-color: #29323D;
     color: white;
     font-family: 'Open Sans', sans-serif;
